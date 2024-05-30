@@ -1,0 +1,35 @@
+
+
+body{
+    background-image:url("bg4.jpg") ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-size: 100%;
+}
+
+.content{
+    margin-top: 15% !important;
+}
+
+.text2{
+    color:rgb(0, 217, 255) ;
+    font-size:230% !important;
+    text-decoration-thickness: 30% ;
+}
+
+#letter{
+    display: none;
+    align-items: center;
+    width: 6% ;
+    height: 200% !important;
+}
+.text3{
+    display: none;
+    color:red;
+}
+
+#imgpic{
+    display: none;
+}
+
+

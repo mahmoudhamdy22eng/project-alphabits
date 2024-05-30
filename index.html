@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+
+</head>
+<body>
+    <div class="content container align-items-center  mt-5">
+        <div class=" container text-center text2">Enter your Number</div><br>
+        <div class="row container align-items-center form-inline " method="post">
+            
+            <div class="offset-lg-3 offset-md-3 col-sm-4 col-md-5 col-lg-5  container ">
+                <input id ="in"  type="number" min="1" max="26" class="form-control mb-2 text1" 
+                                                        placeholder="1-26" maxlength="26" required autofocus >
+            </div>
+                
+            <div class="col-sm-4 col-md-4 col-lg-4 container  ">
+                <button id="btn1" type="button" class="btn btn-warning mb-2"  onclick="resultletters()" >Your Character</button>
+            </div>
+            <div id="text3" class="container col-sm-4 col-md-4 col-lg-4 text3"><small>Please Enter Numbers between 1-26</small></div>
+            
+        </div>
+
+        <div  class="container  text-center align-items-center " id="buttons" style="height: 20px;"  >
+            <!-- <input id="letter" class="letter1 mx-auto "  type="button" id="btn2" onclick="showimg()" ></input> -->
+        </div><br>
+        
+        <div id="imgpic" class="container  text-center"  >
+            <img class="imgpic"  width="150px" height="170px"> 
+        </div>
+
+    </div>
+
+
+    <script src="scripts.js"></script>
+    
+</body>
+</html>
