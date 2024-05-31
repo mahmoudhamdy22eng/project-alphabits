@@ -14,26 +14,27 @@
 <body>
     <div class="content container align-items-center  mt-5">
         <div class=" container text-center text2">Enter your Number</div><br>
-        <div class="row container align-items-center form-inline " method="post">
-            
+        <form id="form1" class="row container align-items-center form-inline " method="post">
+            <!--  input text -->
             <div class="offset-lg-3 offset-md-3 col-sm-4 col-md-5 col-lg-5  container ">
-                <input id ="in"  type="number" min="1" max="26" class="form-control mb-2 text1" 
+                <input id ="in"  type="number" class="form-control mb-2 text1" 
                                                         placeholder="1-26" maxlength="26" required autofocus >
             </div>
-                
+            <!-- submit button -->
             <div class="col-sm-4 col-md-4 col-lg-4 container  ">
-                <button id="btn1" type="button" class="btn btn-warning mb-2"  onclick="resultletters()" >Your Character</button>
+                <button id="btn1" type="submit" class="btn btn-warning mb-2" >Your Character</button>
             </div>
-            <div id="text3" class="container col-sm-4 col-md-4 col-lg-4 text3"><small>Please Enter Numbers between 1-26</small></div>
+            <!-- error message -->
+            <span id="textmessage" class="container col-sm-4 col-md-4 col-lg-4"></span>
             
-        </div>
-
-        <div  class="container  text-center align-items-center " id="buttons" style="height: 20px;"  >
-            <!-- <input id="letter" class="letter1 mx-auto "  type="button" id="btn2" onclick="showimg()" ></input> -->
-        </div><br>
+        </form>
         
-        <div id="imgpic" class="container  text-center"  >
-            <img class="imgpic"  width="150px" height="170px"> 
+        <!-- parent of generated letters' buttons  -->
+        <div id="genLetters" class="container text-center"></div>
+        
+        <!-- generated img -->
+        <div id="imgdiv"  class=" container  text-center"  >
+            <img id="imgpic" src="" alt="" class="container text-center"> 
         </div>
 
     </div>

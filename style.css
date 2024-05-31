@@ -8,12 +8,14 @@ body{
 }
 
 .content{
-    margin-top: 15% !important;
+    margin-top: 12% !important;
 }
 
 .text2{
-    color:rgb(0, 217, 255) ;
+    color:rgb(100, 255, 65) ;
     font-size:230% !important;
+    font-weight: bold;
+    font-family: "Edu TAS Beginner", cursive;
     text-decoration-thickness: 30% ;
 }
 
@@ -23,13 +25,43 @@ body{
     width: 6% ;
     height: 200% !important;
 }
-.text3{
-    display: none;
+#textmessage{
+    /* display: none; */
     color:red;
 }
+#btn1{
+    font-family: "Edu TAS Beginner", cursive;
+}
+
+
+
+
+
+#genLetters{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.newbtn{
+        /* display: none ; */
+        margin: 5px;
+        padding: 10px 15px;
+        font-size: 24px;
+        font-family: "Edu TAS Beginner", cursive;
+        background-color: #ffdd20; 
+        border: 2px solid #FFA500; 
+        border-radius: 10px; 
+        cursor: pointer; 
+        transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.newbtn:hover{
+        transform: scale(1.1); 
+        background-color: #FFA500;
+}
+
 
 #imgpic{
     display: none;
+    width: 160px;
+    height: 200px;
 }
-
 
